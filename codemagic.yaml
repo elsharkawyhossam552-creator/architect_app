@@ -6,7 +6,7 @@
 
 workflows:
   ios-workflow:
-    name: iOS Build (بدون توقيع)
+    name: iOS Build
     max_build_duration: 60
     environment:
       flutter: stable

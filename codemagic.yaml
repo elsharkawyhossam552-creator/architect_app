@@ -24,9 +24,9 @@ workflows:
           flutter test
       - name: بناء iOS بدون توقيع
         script: |
-          flutter build ipa --release --no-codesign
+          flutter build ios --release --no-codesign
     artifacts:
-      - build/ios/ipa/*.ipa
+      - build/ios/iphoneos/*.app
       - build/app/outputs/flutter-apk/*.apk
 
   android-workflow:

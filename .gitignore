@@ -1,0 +1,39 @@
+# Misc
+.DS_Store
+*.swp
+*.lock-windows
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Runner.xcworkspace/xcuserdata/
+
+# Android
+android/.gradle/
+android/local.properties
+android/.idea/
+android/app/build/
+android/build/
+
+# Keys
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
